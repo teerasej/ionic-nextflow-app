@@ -26,7 +26,11 @@
         <ion-content>
             <!-- ion-list -->
             <!-- bind ng-repeat to list item -->
-
+            <ion-list>
+              <ion-item ng-repeat="number in numberList">
+                {{number}}
+              </ion-item>
+            </ion-list>
         </ion-content>
     </ion-pane>
 </body>
