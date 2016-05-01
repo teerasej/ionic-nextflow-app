@@ -26,8 +26,10 @@ angular.module('starter', ['ionic'])
 
 .controller('MyController', ['$scope', function($scope){
   
-    // property 'name'
     $scope.name = "My name";
+
+    // popUp method
+
 
 }])
 
