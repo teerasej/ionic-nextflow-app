@@ -28,9 +28,10 @@ angular.module('starter', ['ionic'])
   
     $scope.name = "My name";
 
-    // Passing parameter to function
-    $scope.popUp = function(){
-      alert('Hello! ' + name);
+   
+    $scope.popUp = function(newName){
+      // Assign newName to property 
+
     }
 
 }])

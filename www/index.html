@@ -24,14 +24,13 @@
             <h1 class="title">Ionic Blank Starter</h1>
         </ion-header-bar>
         <ion-content>
+
             <h1>Hi, {{ name }}</h1>
 
-            <!-- input with ng-model -->
             <label class="item item-input">
-                <input type="text" placeholder="New Name" >
+                <input type="text" placeholder="New Name" ng-model="newName">
             </label>
-            <!-- Pass ng-model to method -->
-            <button class="button button-block" ng-click="popUp()">
+            <button class="button button-block" ng-click="popUp(newName)">
                 Say Hi
             </button>
         </ion-content>
