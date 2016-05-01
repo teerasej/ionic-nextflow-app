@@ -24,5 +24,7 @@ angular.module('starter', ['ionic'])
 })
 
 // Controller 'MyController'
-
+.controller('MyController', ['$scope', function($scope){
+  
+}])
 
