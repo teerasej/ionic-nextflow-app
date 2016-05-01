@@ -26,11 +26,12 @@
         <ion-content>
             <h1>Hi, {{ name }}</h1>
 
-            <!-- input -->
+            <!-- input with ng-model -->
             <label class="item item-input">
-                <input type="text" placeholder="New Name" ng-model="newName">
+                <input type="text" placeholder="New Name" >
             </label>
-            <button class="button button-block" ng-click="popUp(newName)">
+            <!-- Pass ng-model to method -->
+            <button class="button button-block" ng-click="popUp()">
                 Say Hi
             </button>
         </ion-content>
