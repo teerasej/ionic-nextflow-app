@@ -29,7 +29,7 @@ angular.module('starter', ['ionic'])
     $scope.name = "My name";
 
     // Passing parameter to function
-    $scope.popUp = function(name){
+    $scope.popUp = function(){
       alert('Hello! ' + name);
     }
 
