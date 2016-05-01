@@ -29,9 +29,7 @@ angular.module('starter', ['ionic'])
     $scope.name = "My name";
 
     // popUp method
-    $scope.popUp = function(){
-      alert('Hello!');
-    }
+    
 
 }])
 
