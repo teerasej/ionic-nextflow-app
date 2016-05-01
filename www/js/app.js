@@ -26,13 +26,7 @@ angular.module('starter', ['ionic'])
 
 .controller('MyController', ['$scope', function($scope){
   
-    $scope.name = "My name";
-
-   
-    $scope.popUp = function(newName){
-      // Assign newName to property 
-      $scope.name = newName;
-    }
+    $scope.numberList = [1,2,3];
 
 }])
 
