@@ -31,7 +31,7 @@ angular.module('starter', ['ionic'])
    
     $scope.popUp = function(newName){
       // Assign newName to property 
-
+      $scope.name = newName;
     }
 
 }])
