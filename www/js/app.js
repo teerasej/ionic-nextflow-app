@@ -30,7 +30,7 @@ angular.module('starter', ['ionic'])
 
     // popUp method
     $scope.popUp = function(){
-      alert('OK');
+      alert('Hello!');
     }
 
 }])
