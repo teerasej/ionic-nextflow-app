@@ -26,9 +26,31 @@ angular.module('starter', ['ionic'])
 
 .controller('MyController', ['$scope', function($scope){
   
-    $scope.numberList = [1,2,3];
-
-    $scope.bankList = {'ธนาคารกสิกรไทย', 'ธนาคารทหารไทย', 'ธนาคารไทยพาณิชย์', 'ธนาคารกรุงเทพ' ,'ธนาคารกรุงไทย'}
-
+    $scope.profiles = [{
+        id: '1',
+        firstname: 'ณเดชน์',
+        lastname: 'คูกิมิยะ',
+        nickname: 'ณเดชน์'
+    }, {
+        id: '2',
+        firstname: 'เจษฎาภรณ์',
+        lastname: 'ผลดี',
+        nickname: 'ติ๊ก'
+    }, {
+        id: '3',
+        firstname: 'สุธีวัน',
+        lastname: 'ทวีสิน',
+        nickname: 'ใบเตย'
+    }, {
+        id: '4',
+        firstname: 'อุรัสยา',
+        lastname: 'เสปอร์บันด์',
+        nickname: 'ญาญ่า'
+    }, {
+        id: '5',
+        firstname: 'พัชราภา',
+        lastname: 'ไชยเชื้อ',
+        nickname: 'อั้ม'
+    }];
 }])
 
